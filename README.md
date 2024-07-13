@@ -45,6 +45,11 @@ python code_model_training/train.py
 Start the Flask web server:
 flask run -p 5000
 
+# 7. Building Docker Image and Running it 
+
+sudo docker build -t my-python-app .
+sudo docker run -p 5000:5000 my-python-app
+
 # 📄 Contributing
 Feel free to open issues or submit pull requests. We welcome contributions from the community! 🌍
 
